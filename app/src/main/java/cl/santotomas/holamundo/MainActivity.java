@@ -11,4 +11,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void Siguiente(View view){
+        Intent siguiente = new Intent(this,SegundoActivity.class);
+        startActivity(siguiente);
+
+    }
+
+
+
+
+
+
 }
